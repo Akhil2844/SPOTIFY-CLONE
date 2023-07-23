@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=Ubuntu&family=Ubuntu+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+   
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 140px;
+    background-color: black;
+    color: white;
+
+}
+nav ul li{
+    padding:0px  40px;
+    font-size: 2.3rem;
+}
+
+.brand img
+{
+    height: 120px;
+    padding: 0px 10px 0px 0px;
+}
+
+.brand{
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 3.2rem;
+}
+
+.container
+{
+    min-height: 5vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 60%;
+    margin: 30px auto;
+    padding: 40px 34px 40px 40px;
+    border-radius: 15px;
+    background-image: url('bg.jpg');
+    font-family: 'Varela Round', sans-serif;
+}
+.songName
+{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.bottom
+{
+    position: sticky;
+    background-color: black;
+    color: white;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#myProgressBar
+{
+width: 80vw;
+cursor: pointer;
+}
+.icons
+{
+    margin: 18px;
+   
+}
+
+.fa-2xl {
+    font: size 23px;;
+    line-height: -0.96875em;
+    vertical-align: -0.1875em;
+}
+
+.icons i{
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+.songListContainer
+{
+    margin: 90px 0;
+}
+.songItem{
+    width: 120%;
+    height: 60px;
+    display: flex;
+    background-color: white;
+    color: black;
+    border-radius: 34px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 26px;
+    margin:15px 0;
+    font-size: xx-larger;
+}
+.songItem img
+{
+    width: 45px;
+    border-radius: 34px;
+    margin: 10px 0;
+ 
+}
+
+.timeStamp
+{
+    margin: 0 15px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.timeStamp i
+{
+    cursor: pointer;
+    height: fit-content;
+}
+
+.songInfo
+{
+position: absolute;
+left: 10vw;
+font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img
+{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    margin: 0 22px 0 0;
+}
+
+#masterSongName
+{
+    font-size: 32px;
+}
+
+#gif
+{
+    height: 32px;
+    width: 100px;
+}
+
+.songName
+{
+    font-size: 25px;
+}
+
